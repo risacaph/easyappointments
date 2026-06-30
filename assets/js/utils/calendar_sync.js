@@ -1,11 +1,11 @@
 /* ----------------------------------------------------------------------------
- * Easy!Appointments - Online Appointment Scheduler
+ * Mariners Appointment - Online Appointment Scheduler
  *
- * @package     EasyAppointments
- * @author      A.Tselegidis <alextselegidis@gmail.com>
+ * @package     Mariners Appointment
+ * @author      A.Tselegidis <[YOUR_CONTACT_EMAIL]>
  * @copyright   Copyright (c) Alex Tselegidis
  * @license     https://opensource.org/licenses/GPL-3.0 - GPLv3
- * @link        https://easyappointments.org
+ * @link        https://mariners-appointment.org
  * @since       v1.5.0
  * ---------------------------------------------------------------------------- */
 
@@ -58,7 +58,7 @@ App.Utils.CalendarSync = (function () {
 
         const authUrl = App.Utils.Url.siteUrl('google/oauth/' + $('#select-filter-item').val());
 
-        const windowHandle = window.open(authUrl, 'Easy!Appointments', 'width=800, height=600');
+        const windowHandle = window.open(authUrl, 'Mariners Appointment', 'width=800, height=600');
 
         // Listen for the postMessage that oauth_callback emits after the token is saved server-side.
         // This avoids the race condition of URL-polling, which fires as soon as the browser starts

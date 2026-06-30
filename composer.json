@@ -1,21 +1,21 @@
 {
-    "name": "alextselegidis/easyappointments",
-    "description": "Open Source Web Scheduler",
+    "name": "mariners-appointment/mariners-appointment",
+    "description": "Mariners Appointment - Open Source Web Appointment Scheduler",
     "version": "1.5.2",
-    "homepage": "https://easyappointments.org",
+    "homepage": "[YOUR_NEW_REPO_URL]",
     "type": "project",
     "license": "GPL-3.0",
     "authors": [
         {
-            "name": "Alex Tselegidis",
-            "email": "alextselegidis@gmail.com"
+            "name": "Mariners Appointment",
+            "email": "[YOUR_CONTACT_EMAIL]"
         }
     ],
     "support": {
-        "issues": "https://github.com/alextselegidis/easyappointments/issues",
-        "forum": "https://groups.google.com/forum/#!forum/easy-appointments",
-        "wiki": "https://easyappointments.org/docs",
-        "source": "https://github.com/alextselegidis/easyappointments"
+        "issues": "[YOUR_NEW_REPO_URL]/issues",
+        "forum": "[YOUR_NEW_REPO_URL]/discussions",
+        "wiki": "[YOUR_NEW_REPO_URL]/wiki",
+        "source": "[YOUR_NEW_REPO_URL]"
     },
     "keywords": [
         "calendar",

@@ -1,10 +1,10 @@
 # Installation Guide
 
-This guide walks you through installing and setting up Easy!Appointments on your server.
+This guide walks you through installing and setting up Mariners Appointment on your server.
 
 ## What You Need
 
-Easy!Appointments runs on a web server, just like a regular website. Before you begin, make sure you have:
+Mariners Appointment runs on a web server, just like a regular website. Before you begin, make sure you have:
 
 - **Apache** (v2.4 or newer) — the web server software
 - **PHP** (v8.2 or newer) — the programming language that runs the app
@@ -22,9 +22,9 @@ You need a MySQL database to store appointment data. If your hosting plan includ
 
 ### 2. Upload the Files
 
-Upload the Easy!Appointments files to your server using FTP or your hosting's file manager. Place them in a folder like `easyappointments`, `appointments`, or `book`.
+Upload the Mariners Appointment files to your server using FTP or your hosting's file manager. Place them in a folder like `mariners-appointment`, `appointments`, or `book`.
 
-Take note of the URL. For example, if you uploaded to a folder called `easyappointments`, the URL will look like: `http://your-domain.com/easyappointments`
+Take note of the URL. For example, if you uploaded to a folder called `mariners-appointment`, the URL will look like: `http://your-domain.com/mariners-appointment`
 
 ### 3. Make the Storage Folder Writable
 
@@ -50,9 +50,9 @@ You can also add Google Calendar API keys here if you want to use that feature l
 
 ### 5. Run the Installer
 
-Open your browser and go to your Easy!Appointments URL (e.g. `http://your-domain.com/easyappointments`). You'll see a setup wizard. Fill in your admin account details and company info, then click **Install**.
+Open your browser and go to your Mariners Appointment URL (e.g. `http://your-domain.com/mariners-appointment`). You'll see a setup wizard. Fill in your admin account details and company info, then click **Install**.
 
-That's it — Easy!Appointments is now installed!
+That's it — Mariners Appointment is now installed!
 
 ## Setting Up Your Business
 
@@ -80,10 +80,10 @@ If someone manages bookings for your team, click the **Secretaries** tab and add
 
 Click **Go To Booking Page** at the bottom of the page to see your public booking page. Try creating a test appointment — it will show up in your **Calendar**.
 
-Finally, add a link to your website (e.g. "Book an Appointment") that points to your Easy!Appointments URL so customers can find it.
+Finally, add a link to your website (e.g. "Book an Appointment") that points to your Mariners Appointment URL so customers can find it.
 
 Happy Bookin'!
 
-*This document applies to Easy!Appointments v1.6.0.*
+*This document applies to Mariners Appointment v1.6.0.*
 
 [Back](readme.md)

@@ -6,10 +6,10 @@
     <div id="about" class="col-lg-8 offset-lg-2">
 
         <div class="text-center my-5">
-            <img src="<?= base_url('assets/img/logo.png') ?>" alt="Easy!Appointments Logo" class="mb-5">
+            <img src="<?= base_url('assets/img/logo.png') ?>" alt="Mariners Appointment Logo" class="mb-5">
 
             <h3>
-                Easy!Appointments
+                Mariners Appointment
             </h3>
             <h6 class="text-primary">
                 Online Appointment Scheduler
@@ -75,7 +75,7 @@
         </p>
 
         <div class="mb-5">
-            <a class="btn btn-primary d-block w-100 btn-lg m-auto" href="https://easyappointments.org/premium" target="_blank">
+            <a class="btn btn-primary d-block w-100 btn-lg m-auto" href="https://mariners-appointment.org/premium" target="_blank">
                 <i class="fas fa-crown me-2 text-warning"></i>
                 <?= lang('go_premium') ?>
             </a>
@@ -91,7 +91,7 @@
 
         <div class="row mb-5">
             <div class="col-lg-6 mb-3">
-                <a class="btn btn-outline-secondary d-block" href="https://easyappointments.org" target="_blank">
+                <a class="btn btn-outline-secondary d-block" href="https://mariners-appointment.org" target="_blank">
                     <i class="fas fa-external-link-alt me-2"></i>
                     <?= lang('official_website') ?>
                 </a>
@@ -107,7 +107,7 @@
 
             <div class="col-lg-6 mb-3">
                 <a class="btn btn-outline-secondary d-block"
-                   href="https://github.com/alextselegidis/easyappointments/issues" target="_blank">
+                   href="[YOUR_NEW_REPO_URL]/issues" target="_blank">
                     <i class="fas fa-external-link-alt me-2"></i>
                     <?= lang('project_issues') ?>
                 </a>

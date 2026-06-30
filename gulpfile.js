@@ -1,11 +1,11 @@
 /* ----------------------------------------------------------------------------
- * Easy!Appointments - Online Appointment Scheduler
+ * Mariners Appointment - Online Appointment Scheduler
  *
- * @package     EasyAppointments
- * @author      A.Tselegidis <alextselegidis@gmail.com>
+ * @package     Mariners Appointment
+ * @author      A.Tselegidis <[YOUR_CONTACT_EMAIL]>
  * @copyright   Copyright (c) Alex Tselegidis
  * @license     https://opensource.org/licenses/GPL-3.0 - GPLv3
- * @link        https://easyappointments.org
+ * @link        https://mariners-appointment.org
  * @since       v1.4.0
  * ---------------------------------------------------------------------------- */
 
@@ -24,7 +24,7 @@ const zip = require('zip-dir');
 const debug = require('gulp-debug');
 
 function archive(done) {
-    const filename = 'easyappointments-0.0.0.zip';
+    const filename = 'mariners-appointment-0.0.0.zip';
 
     fs.removeSync('build');
     fs.removeSync(filename);

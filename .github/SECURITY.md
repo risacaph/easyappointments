@@ -1,4 +1,4 @@
 # Security Vulnerabilities
 
-If you discover a security vulnerability within Easy!Appointments, please send an email to info@easyappointments.org. 
+If you discover a security vulnerability within Mariners Appointment, please send an email to info@mariners-appointment.org. 
 All security vulnerabilities will be promptly addressed.

@@ -1,6 +1,6 @@
 # Docker
 
-Docker lets you run Easy!Appointments on your computer without installing Apache, PHP, or MySQL manually. Everything runs inside containers — isolated mini-environments that are easy to start and stop.
+Docker lets you run Mariners Appointment on your computer without installing Apache, PHP, or MySQL manually. Everything runs inside containers — isolated mini-environments that are easy to start and stop.
 
 ## Getting Started
 
@@ -17,7 +17,7 @@ class Config {
 
     // DATABASE SETTINGS
     const DB_HOST       = 'mysql';
-    const DB_NAME       = 'easyappointments';
+    const DB_NAME       = 'mariners-appointment';
     const DB_USERNAME   = 'user';
     const DB_PASSWORD   = 'password';
 
@@ -40,7 +40,7 @@ Once running, you can access these services in your browser:
 
 | Service | URL | Credentials |
 |---------|-----|-------------|
-| **Easy!Appointments** | http://localhost | (your admin account) |
+| **Mariners Appointment** | http://localhost | (your admin account) |
 | **phpMyAdmin** (database manager) | http://localhost:8080 | `root` / `secret` |
 | **Mailpit** (email testing) | http://localhost:8025 | (no login needed) |
 | **Baikal** (CalDAV testing) | http://localhost:8100 | `admin` / `admin` |
@@ -51,7 +51,7 @@ Once running, you can access these services in your browser:
 To test CalDAV syncing locally:
 
 1. Open Baikal at http://localhost:8100 and create a new user.
-2. In Easy!Appointments, click **Enable Sync** → **CalDAV** and enter:
+2. In Mariners Appointment, click **Enable Sync** → **CalDAV** and enter:
    - **URL:** `http://baikal/dav.php/calendars/<your-username>/default/`
    - **Username:** your Baikal username
    - **Password:** your Baikal password
@@ -60,8 +60,8 @@ To test CalDAV syncing locally:
 
 OpenLDAP runs on the `openldap` container (ports `389` and `636`). You can manage it through phpLDAPadmin at http://localhost:8200.
 
-> **Note:** This Docker setup is for **development only**. Don't use it in production. For a production Docker image, see: https://github.com/alextselegidis/easyappointments-docker
+> **Note:** This Docker setup is for **development only**. Don't use it in production. For a production Docker image, see: [YOUR_NEW_REPO_URL]-docker
 
-*This document applies to Easy!Appointments v1.6.0.*
+*This document applies to Mariners Appointment v1.6.0.*
 
 [Back](readme.md)

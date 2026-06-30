@@ -1,8 +1,8 @@
 {
-  "name": "easyappointments",
-  "description": "Open Source Web Scheduler",
-  "homepage": "https://easyappointments.org",
-  "author": "A.Tselegidis <alextselegidis@gmail.com>",
+  "name": "mariners-appointment",
+  "description": "Mariners Appointment - Open Source Web Appointment Scheduler",
+  "homepage": "[YOUR_NEW_REPO_URL]",
+  "author": "Mariners Appointment <[YOUR_CONTACT_EMAIL]>",
   "license": "GPL-3.0",
   "keywords": [
     "calendar",
@@ -15,10 +15,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alextselegidis/easyappointments.git"
+    "url": "git+[YOUR_NEW_REPO_URL].git"
   },
   "bugs": {
-    "url": "https://github.com/alextselegidis/easyappointments/issues"
+    "url": "[YOUR_NEW_REPO_URL]/issues"
   },
   "engines": {
     "node": ">=14"

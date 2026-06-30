@@ -1,6 +1,6 @@
 # Update Guide
 
-This guide explains how to update Easy!Appointments from an older version to a newer one.
+This guide explains how to update Mariners Appointment from an older version to a newer one.
 
 > **Important:** Always **back up your database and files** before updating. If something goes wrong, you can restore them.
 
@@ -25,7 +25,7 @@ The database may need updates to work with the new version. You have two ways to
 
 Log in to the backend and go to:
 ```
-https://your-domain.com/easyappointments/index.php/backend/update
+https://your-domain.com/mariners-appointment/index.php/backend/update
 ```
 
 **Option B — From the Command Line:**
@@ -72,6 +72,6 @@ No extra steps — just follow Steps 1 and 2.
 
 No extra steps — just follow Steps 1 and 2.
 
-*This document applies to Easy!Appointments v1.6.0.*
+*This document applies to Mariners Appointment v1.6.0.*
 
 [Back](readme.md)

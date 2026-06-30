@@ -1,13 +1,13 @@
 <?php defined('BASEPATH') or exit('No direct script access allowed');
 
 /* ----------------------------------------------------------------------------
- * Easy!Appointments - Online Appointment Scheduler
+ * Mariners Appointment - Online Appointment Scheduler
  *
- * @package     EasyAppointments
- * @author      A.Tselegidis <alextselegidis@gmail.com>
+ * @package     Mariners Appointment
+ * @author      A.Tselegidis <[YOUR_CONTACT_EMAIL]>
  * @copyright   Copyright (c) Alex Tselegidis
  * @license     https://opensource.org/licenses/GPL-3.0 - GPLv3
- * @link        https://easyappointments.org
+ * @link        https://mariners-appointment.org
  * @since       v1.4.0
  * ---------------------------------------------------------------------------- */
 
@@ -16,7 +16,7 @@ require_once __DIR__ . '/../core/EA_Migration.php';
 /**
  * Instance library.
  *
- * Handles all Easy!Appointments instance related functionality.
+ * Handles all Mariners Appointment instance related functionality.
  *
  * @package Libraries
  */
@@ -176,7 +176,7 @@ class Instance
 
         $contents = $this->CI->dbutil->backup();
 
-        $filename = 'easyappointments-backup-' . date('Y-m-d-His') . '.gz';
+        $filename = 'mariners-appointment-backup-' . date('Y-m-d-His') . '.gz';
 
         write_file(rtrim($path, '/') . '/' . $filename, $contents);
     }

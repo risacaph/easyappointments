@@ -1,10 +1,10 @@
 /* ----------------------------------------------------------------------------
- * Easy!Appointments - Online Appointment Scheduler
+ * Mariners Appointment - Online Appointment Scheduler
  *
- * @author      A.Tselegidis <alextselegidis@gmail.com>
+ * @author      A.Tselegidis <[YOUR_CONTACT_EMAIL]>
  * @copyright   Copyright (c) Alex Tselegidis
  * @license     https://opensource.org/licenses/GPL-3.0 - GPLv3
- * @link        https://easyappointments.org
+ * @link        https://mariners-appointment.org
  * @since       v1.5.0
  * ---------------------------------------------------------------------------- */
 
@@ -30,7 +30,7 @@ window.App = (function () {
         }
 
         if (App.Utils.Message) {
-            App.Utils.Message.show('Easy!Appointments', lang('unexpected_issues_message'));
+            App.Utils.Message.show('Mariners Appointment', lang('unexpected_issues_message'));
 
             $('<div/>', {
                 'class': 'card',

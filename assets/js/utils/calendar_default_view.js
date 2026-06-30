@@ -1,11 +1,11 @@
 /* ----------------------------------------------------------------------------
- * Easy!Appointments - Online Appointment Scheduler
+ * Mariners Appointment - Online Appointment Scheduler
  *
- * @package     EasyAppointments
- * @author      A.Tselegidis <alextselegidis@gmail.com>
+ * @package     Mariners Appointment
+ * @author      A.Tselegidis <[YOUR_CONTACT_EMAIL]>
  * @copyright   Copyright (c) Alex Tselegidis
  * @license     https://opensource.org/licenses/GPL-3.0 - GPLv3
- * @link        https://easyappointments.org
+ * @link        https://mariners-appointment.org
  * @since       v1.5.0
  * ---------------------------------------------------------------------------- */
 /**
@@ -1219,7 +1219,7 @@ App.Utils.CalendarDefaultView = (function () {
 
             $('#insert-working-plan-exception').toggle(isProviderFilter());
             $reloadAppointments.trigger('click');
-            window.localStorage.setItem('EasyAppointments.SelectFilterItem', providerId);
+            window.localStorage.setItem('Mariners Appointment.SelectFilterItem', providerId);
         });
     }
 
@@ -1365,7 +1365,7 @@ App.Utils.CalendarDefaultView = (function () {
         addEventListeners();
 
         // Restore saved filter selection
-        const savedFilter = window.localStorage.getItem('EasyAppointments.SelectFilterItem');
+        const savedFilter = window.localStorage.getItem('Mariners Appointment.SelectFilterItem');
 
         if (savedFilter && $selectFilterItem.find('option[value="' + savedFilter + '"]').length) {
             $selectFilterItem.val(savedFilter).trigger('change');

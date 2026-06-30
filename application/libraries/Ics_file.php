@@ -1,13 +1,13 @@
 <?php defined('BASEPATH') or exit('No direct script access allowed');
 
 /* ----------------------------------------------------------------------------
- * Easy!Appointments - Online Appointment Scheduler
+ * Mariners Appointment - Online Appointment Scheduler
  *
- * @package     EasyAppointments
- * @author      A.Tselegidis <alextselegidis@gmail.com>
+ * @package     Mariners Appointment
+ * @author      A.Tselegidis <[YOUR_CONTACT_EMAIL]>
  * @copyright   Copyright (c) Alex Tselegidis
  * @license     https://opensource.org/licenses/GPL-3.0 - GPLv3
- * @link        https://easyappointments.org
+ * @link        https://mariners-appointment.org
  * @since       v1.3.0
  * ---------------------------------------------------------------------------- */
 
@@ -179,7 +179,7 @@ class Ics_file
         $calendar = new Calendar();
 
         $calendar
-            ->setProdId('-//EasyAppointments//Open Source Web Scheduler//EN')
+            ->setProdId('-//Mariners Appointment//Open Source Web Scheduler//EN')
             ->setMethod('REQUEST')
             ->setTimezone(new DateTimeZone($provider['timezone']))
             ->addEvent($event);
@@ -229,7 +229,7 @@ class Ics_file
         $calendar = new Calendar();
 
         $calendar
-            ->setProdId('-//EasyAppointments//Open Source Web Scheduler//EN')
+            ->setProdId('-//Mariners Appointment//Open Source Web Scheduler//EN')
             ->setMethod('REQUEST')
             ->setTimezone(new DateTimeZone($provider['timezone']))
             ->addEvent($event);
