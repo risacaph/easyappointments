@@ -305,6 +305,284 @@ img {
 	top: 10px;
 }
 
+/* ==========================================================================
+   Landing page (front-page.php)
+   ========================================================================== */
+
+.ma-landing {
+	/* Full-bleed sections: cancel the .site-content container padding. */
+	margin: -40px 0;
+}
+
+.ma-section {
+	padding: 64px 0;
+}
+
+.ma-section--soft {
+	background: var(--ma-soft);
+}
+
+.ma-section__title {
+	margin: 0 0 12px;
+	text-align: center;
+	font-size: 2rem;
+	color: var(--ma-navy);
+}
+
+.ma-section__lead {
+	margin: 0 auto 36px;
+	max-width: 680px;
+	text-align: center;
+	color: var(--ma-muted);
+	font-size: 1.1rem;
+}
+
+/* Buttons */
+.ma-button--light {
+	background: #fff;
+	color: var(--ma-navy);
+}
+
+.ma-button--light:hover {
+	background: var(--ma-soft);
+	color: var(--ma-navy);
+}
+
+.ma-button--ghost {
+	background: transparent;
+	border: 2px solid #fff;
+	color: #fff;
+}
+
+.ma-button--ghost:hover {
+	background: rgba(255, 255, 255, 0.12);
+	color: #fff;
+}
+
+/* Hero */
+.ma-hero {
+	background: linear-gradient(135deg, var(--ma-navy), var(--ma-teal));
+	color: #fff;
+	padding: 80px 0;
+}
+
+.ma-hero__inner {
+	display: grid;
+	grid-template-columns: 1.3fr 1fr;
+	align-items: center;
+	gap: 40px;
+}
+
+.ma-hero__title {
+	margin: 0 0 16px;
+	font-size: 3.2rem;
+	line-height: 1.05;
+	letter-spacing: -0.02em;
+}
+
+.ma-hero__subtitle {
+	margin: 0 0 28px;
+	font-size: 1.2rem;
+	max-width: 560px;
+	color: #e6f2f7;
+}
+
+.ma-hero__actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 14px;
+	margin: 0;
+}
+
+.ma-hero__art {
+	display: flex;
+	justify-content: center;
+}
+
+/* Feature cards */
+.ma-cards {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 24px;
+}
+
+.ma-card {
+	background: #fff;
+	border: 1px solid var(--ma-border);
+	border-radius: 12px;
+	padding: 28px;
+	text-align: center;
+	box-shadow: 0 6px 20px rgba(11, 61, 102, 0.06);
+}
+
+.ma-card__icon {
+	font-size: 2.2rem;
+	line-height: 1;
+	margin-bottom: 12px;
+}
+
+.ma-card__title {
+	margin: 0 0 8px;
+	color: var(--ma-navy);
+	font-size: 1.25rem;
+}
+
+/* Split (use cases) */
+.ma-split {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 48px;
+	align-items: center;
+}
+
+.ma-split__text .ma-section__title {
+	text-align: left;
+}
+
+.ma-usecases {
+	list-style: none;
+	margin: 20px 0 24px;
+	padding: 0;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 10px;
+}
+
+.ma-usecases li {
+	padding-left: 26px;
+	position: relative;
+}
+
+.ma-usecases li::before {
+	content: "⚓";
+	position: absolute;
+	left: 0;
+	color: var(--ma-teal);
+}
+
+/* Mock calendar illustration */
+.ma-mockcal {
+	background: #fff;
+	border: 1px solid var(--ma-border);
+	border-radius: 12px;
+	padding: 18px;
+	box-shadow: 0 10px 30px rgba(11, 61, 102, 0.1);
+}
+
+.ma-mockcal__head {
+	font-weight: 700;
+	color: var(--ma-navy);
+	margin-bottom: 12px;
+}
+
+.ma-mockcal__row {
+	display: flex;
+	gap: 14px;
+	align-items: center;
+	padding: 12px;
+	border-radius: 8px;
+	background: var(--ma-soft);
+	margin-bottom: 10px;
+}
+
+.ma-mockcal__row span {
+	color: var(--ma-muted);
+	font-variant-numeric: tabular-nums;
+	min-width: 52px;
+}
+
+.ma-mockcal__row.is-busy {
+	background: #e2eef9;
+	border-left: 4px solid var(--ma-teal);
+}
+
+/* Stats */
+.ma-stats__grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 24px;
+	text-align: center;
+}
+
+.ma-stat__num {
+	display: block;
+	font-size: 2.6rem;
+	font-weight: 800;
+	color: var(--ma-teal);
+	line-height: 1;
+}
+
+.ma-stat__label {
+	display: block;
+	margin-top: 8px;
+	color: var(--ma-muted);
+}
+
+/* Booking */
+.ma-booking {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+/* FAQ */
+.ma-faq {
+	max-width: 760px;
+}
+
+.ma-faq__item {
+	background: #fff;
+	border: 1px solid var(--ma-border);
+	border-radius: var(--ma-radius);
+	padding: 4px 18px;
+	margin-bottom: 12px;
+}
+
+.ma-faq__item summary {
+	cursor: pointer;
+	font-weight: 600;
+	color: var(--ma-navy);
+	padding: 14px 0;
+	list-style: none;
+}
+
+.ma-faq__item summary::-webkit-details-marker {
+	display: none;
+}
+
+.ma-faq__item summary::after {
+	content: "+";
+	float: right;
+	color: var(--ma-teal);
+	font-weight: 700;
+}
+
+.ma-faq__item[open] summary::after {
+	content: "–";
+}
+
+.ma-faq__item p {
+	margin: 0 0 14px;
+	color: var(--ma-muted);
+}
+
+/* Closing CTA */
+.ma-cta {
+	background: linear-gradient(135deg, var(--ma-teal), var(--ma-navy));
+	color: #fff;
+	text-align: center;
+	padding: 64px 0;
+}
+
+.ma-cta__title {
+	margin: 0 0 10px;
+	font-size: 2rem;
+}
+
+.ma-cta__text {
+	margin: 0 0 24px;
+	color: #e6f2f7;
+}
+
 /* Responsive */
 @media (max-width: 860px) {
 	.content-area {
@@ -325,5 +603,29 @@ img {
 
 	.main-navigation.toggled ul {
 		display: flex;
+	}
+
+	.ma-hero__inner,
+	.ma-split,
+	.ma-cards,
+	.ma-stats__grid {
+		grid-template-columns: 1fr;
+	}
+
+	.ma-hero__title {
+		font-size: 2.4rem;
+	}
+
+	.ma-stats__grid {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.ma-usecases {
+		grid-template-columns: 1fr;
+	}
+
+	.ma-split__text .ma-section__title,
+	.ma-hero__art {
+		text-align: center;
 	}
 }
