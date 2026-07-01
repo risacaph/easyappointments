@@ -1,11 +1,11 @@
 /* ----------------------------------------------------------------------------
- * Easy!Appointments - Online Appointment Scheduler
+ * Mariners Appointment - Online Appointment Scheduler
  *
- * @package     EasyAppointments
- * @author      A.Tselegidis <alextselegidis@gmail.com>
+ * @package     Mariners Appointment
+ * @author      A.Tselegidis <[YOUR_CONTACT_EMAIL]>
  * @copyright   Copyright (c) Alex Tselegidis
  * @license     https://opensource.org/licenses/GPL-3.0 - GPLv3
- * @link        https://easyappointments.org
+ * @link        https://mariners-appointment.org
  * @since       v1.5.0
  * ---------------------------------------------------------------------------- */
 
@@ -43,7 +43,7 @@ App.Pages.Booking = (function () {
     const tippy = window.tippy;
     const moment = window.moment;
 
-    const STORAGE_KEY = 'EasyAppointments.CustomerInfo';
+    const STORAGE_KEY = 'Mariners Appointment.CustomerInfo';
 
     /**
      * Determines the functionality of the page.

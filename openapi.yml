@@ -1,21 +1,21 @@
 openapi: 3.0.3
 info:
-  title: Easy!Appointments API
+  title: Mariners Appointment API
   version: 1.0.0
-  description: These are the OpenAPI specs that describe the REST API of Easy!Appointments.
-  termsOfService: https://easyappointments.org/terms-and-conditions
+  description: These are the OpenAPI specs that describe the REST API of Mariners Appointment.
+  termsOfService: https://mariners-appointment.org/terms-and-conditions
   contact:
-    name: Easy!Appointments
-    url: https://easyappointments.org
-    email: info@easyappointments.org
+    name: Mariners Appointment
+    url: https://mariners-appointment.org
+    email: info@mariners-appointment.org
   license:
     name: GPL-3.0
     url: https://www.gnu.org/licenses/gpl-3.0.en.html
 externalDocs:
-  description: Find out more about Easy!Appointments
-  url: https://easyappointments.org/docs.html
+  description: Find out more about Mariners Appointment
+  url: https://mariners-appointment.org/docs.html
 servers:
-  - url: https://demo.easyappointments.org/index.php/api/v1/
+  - url: https://demo.mariners-appointment.org/index.php/api/v1/
   - url: http://localhost/index.php/api/v1/
 tags:
   - name: admins

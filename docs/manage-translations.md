@@ -1,6 +1,6 @@
 # Manage Translations
 
-Easy!Appointments supports multiple languages. You can modify existing translations or add your own.
+Mariners Appointment supports multiple languages. You can modify existing translations or add your own.
 
 ## How Translations Work
 
@@ -40,8 +40,8 @@ $config['language'] = 'english'; // Change to your language
 
 ## Sharing Your Translation
 
-If you'd like to contribute your translation to the project, you can submit a [pull request on GitHub](https://github.com/alextselegidis/easyappointments) or email it to [alextselegidis@gmail.com](mailto:alextselegidis@gmail.com).
+If you'd like to contribute your translation to the project, you can submit a [pull request on GitHub]([YOUR_NEW_REPO_URL]) or email it to [[YOUR_CONTACT_EMAIL]](mailto:[YOUR_CONTACT_EMAIL]).
 
-*This document applies to Easy!Appointments v1.6.0.*
+*This document applies to Mariners Appointment v1.6.0.*
 
 [Back](readme.md)

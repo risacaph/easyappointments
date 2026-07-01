@@ -1,10 +1,10 @@
 <h1 align="center">
     <br>
-    <a href="https://easyappointments.org">
-        <img src="https://raw.githubusercontent.com/alextselegidis/easyappointments/develop/logo.png" alt="Easy!Appointments" width="150">
+    <a href="[YOUR_NEW_REPO_URL]">
+        <img src="logo.png" alt="Mariners Appointment" width="150">
     </a>
     <br>
-    Easy!Appointments
+    Mariners Appointment
     <br>
 </h1>
 
@@ -13,16 +13,13 @@
 </h4>
 
 <p align="center">
-  <img alt="License" src="https://img.shields.io/github/license/alextselegidis/easyappointments?style=for-the-badge">
-  <img alt="Latest Release" src="https://img.shields.io/github/v/release/alextselegidis/easyappointments?style=for-the-badge">
-  <img alt="Downloads" src="https://img.shields.io/github/downloads/alextselegidis/easyappointments/total?style=for-the-badge">
-  <a href="https://discord.com/invite/UeeSkaw">
-    <img alt="Discord" src="https://img.shields.io/badge/chat-on%20discord-7289da?style=for-the-badge&logo=discord&logoColor=white">
-  </a>
+  <img alt="License" src="https://img.shields.io/github/license/[YOUR_NEW_REPO_OWNER]/mariners-appointment?style=for-the-badge">
+  <img alt="Latest Release" src="https://img.shields.io/github/v/release/[YOUR_NEW_REPO_OWNER]/mariners-appointment?style=for-the-badge">
+  <img alt="Downloads" src="https://img.shields.io/github/downloads/[YOUR_NEW_REPO_OWNER]/mariners-appointment/total?style=for-the-badge">
 </p>
 
 <p align="center">
-  <a href="#why-easyappointments">Why Easy!Appointments</a> •
+  <a href="#why-mariners-appointment">Why Mariners Appointment</a> •
   <a href="#features">Features</a> •
   <a href="#quick-start">Quick Start</a> •
   <a href="#installation">Installation</a> •
@@ -31,19 +28,11 @@
 
 ---
 
-<p align="center">
-  <strong>Looking for advanced capabilities?</strong><br>
-  Explore premium features and professional services at
-  <a href="https://easyappointments.org/premium" target="_blank">easyappointments.org/premium</a>.
-</p>
-
----
-
 ![screenshot](screenshot.png)
 
-## 🚀 Why Easy!Appointments
+## 🚀 Why Mariners Appointment
 
-**Easy!Appointments** is an open-source scheduling system that gives you full control over your booking workflow.
+**Mariners Appointment** is an open-source scheduling system that gives you full control over your booking workflow.
 
 It is designed to adapt to your business — whether you need simple appointment booking or more advanced scheduling logic.
 
@@ -77,10 +66,10 @@ Clone and run the project locally using the provided Docker Compose environment:
 
 ```bash
 # Clone the repository
-git clone https://github.com/alextselegidis/easyappointments.git
+git clone [YOUR_NEW_REPO_URL].git
 
 # Navigate into the project
-cd easyappointments
+cd mariners-appointment
 
 # Start the Docker environment
 docker compose up
@@ -125,7 +114,7 @@ npm run build
 ### Steps
 
 1. Create a database (or use an existing one)
-2. Upload the `easyappointments` folder to your server
+2. Upload the `mariners-appointment` folder to your server
 3. Ensure the `storage` directory is writable
 4. Rename `config-sample.php` to `config.php`
 5. Update configuration values
@@ -137,10 +126,9 @@ Once completed, the system is ready to use.
 
 ## 📚 Resources
 
-* Website: [https://easyappointments.org](https://easyappointments.org)
-* Issues: [https://github.com/alextselegidis/easyappointments/issues](https://github.com/alextselegidis/easyappointments/issues)
-* Support Group: [https://groups.google.com/forum/#!forum/easy-appointments](https://groups.google.com/forum/#!forum/easy-appointments)
-* Discord: [https://discord.com/invite/UeeSkaw](https://discord.com/invite/UeeSkaw)
+* Repository: [[YOUR_NEW_REPO_URL]]([YOUR_NEW_REPO_URL])
+* Issues: [[YOUR_NEW_REPO_URL]/issues]([YOUR_NEW_REPO_URL]/issues)
+* Discussions: [[YOUR_NEW_REPO_URL]/discussions]([YOUR_NEW_REPO_URL]/discussions)
 
 ---
 
@@ -149,18 +137,13 @@ Once completed, the system is ready to use.
 * Code: GPL v3.0
 * Content: CC BY 3.0
 
----
-
-## 👤 Author
-
-* Website: [https://alextselegidis.com](https://alextselegidis.com)
-* GitHub: [https://github.com/alextselegidis](https://github.com/alextselegidis)
-* Twitter: [https://twitter.com/AlexTselegidis](https://twitter.com/AlexTselegidis)
+Mariners Appointment is a derivative work based on the open-source Easy!Appointments
+project (Copyright © Alex Tselegidis), distributed under the GPL-3.0 license. The
+original copyright notices are retained in the source files as required by the license.
 
 ---
 
-## 🔥 More Projects
+## 👤 Maintainer
 
-* [Plainpad · Self-Hosted Note Taking](https://github.com/alextselegidis/plainpad)
-* [Clientverse · CRM Application](https://github.com/alextselegidis/clientverse)
-* [Timecrack · Time Tracking](https://github.com/alextselegidis/timecrack)
+* Repository: [[YOUR_NEW_REPO_URL]]([YOUR_NEW_REPO_URL])
+* Contact: [YOUR_CONTACT_EMAIL]

@@ -1,13 +1,13 @@
 <?php defined('BASEPATH') or exit('No direct script access allowed');
 
 /* ----------------------------------------------------------------------------
- * Easy!Appointments - Online Appointment Scheduler
+ * Mariners Appointment - Online Appointment Scheduler
  *
- * @package     EasyAppointments
- * @author      A.Tselegidis <alextselegidis@gmail.com>
+ * @package     Mariners Appointment
+ * @author      A.Tselegidis <[YOUR_CONTACT_EMAIL]>
  * @copyright   Copyright (c) Alex Tselegidis
  * @license     https://opensource.org/licenses/GPL-3.0 - GPLv3
- * @link        https://easyappointments.org
+ * @link        https://mariners-appointment.org
  * @since       v1.5.0
  * ---------------------------------------------------------------------------- */
 
@@ -84,7 +84,7 @@ class About extends EA_Controller
     }
 
     /**
-     * Fetch blog posts from the Easy!Appointments RSS feed.
+     * Fetch blog posts from the Mariners Appointment RSS feed.
      *
      * @return array
      */
@@ -93,12 +93,12 @@ class About extends EA_Controller
         $blog_posts = [];
 
         try {
-            $rss_url = 'https://easyappointments.org/feed/';
+            $rss_url = 'https://mariners-appointment.org/feed/';
 
             $context = stream_context_create([
                 'http' => [
                     'timeout' => 5,
-                    'user_agent' => 'Easy!Appointments/' . config('version'),
+                    'user_agent' => 'Mariners Appointment/' . config('version'),
                 ],
                 'ssl' => [
                     'verify_peer' => true,
