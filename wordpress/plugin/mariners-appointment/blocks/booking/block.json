@@ -1,0 +1,23 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "mariners-appointment/booking",
+	"version": "1.0.0",
+	"title": "Mariners Appointment Booking",
+	"category": "widgets",
+	"icon": "calendar-alt",
+	"description": "Embed your Mariners Appointment booking page.",
+	"keywords": [ "appointment", "booking", "calendar", "scheduler" ],
+	"textdomain": "mariners-appointment",
+	"editorScript": "mariners-appointment-block",
+	"attributes": {
+		"url": { "type": "string", "default": "" },
+		"height": { "type": "number" },
+		"service": { "type": "string", "default": "" },
+		"provider": { "type": "string", "default": "" }
+	},
+	"supports": {
+		"html": false,
+		"align": [ "wide", "full" ]
+	}
+}
