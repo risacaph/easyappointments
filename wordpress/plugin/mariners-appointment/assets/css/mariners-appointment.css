@@ -1,0 +1,25 @@
+/**
+ * Front-end styles for the Mariners Appointment embed.
+ */
+.mariners-appointment-embed {
+	width: 100%;
+	margin: 1.5rem 0;
+}
+
+.mariners-appointment-iframe {
+	display: block;
+	width: 100%;
+	min-height: 400px;
+	border: 0;
+	border-radius: 8px;
+	background: #f7fafc;
+}
+
+.mariners-appointment-notice {
+	padding: 12px 16px;
+	border: 1px solid #178ca8;
+	border-left-width: 4px;
+	border-radius: 4px;
+	background: #eef7fa;
+	color: #0b3d66;
+}
