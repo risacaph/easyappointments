@@ -315,6 +315,36 @@
 
                                     <div class="mb-3">
                                         <div class="form-check form-switch">
+                                            <input class="form-check-input" type="checkbox" id="appointment-reminders"
+                                                   data-field="appointment_reminders">
+                                            <label class="form-check-label" for="appointment-reminders">
+                                                <?= lang('appointment_reminders') ?>
+                                            </label>
+                                        </div>
+
+                                        <div class="form-text text-muted">
+                                            <small>
+                                                <?= lang('appointment_reminders_hint') ?>
+                                            </small>
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="appointment-reminder-hours" class="form-label">
+                                            <?= lang('appointment_reminder_hours') ?>
+                                        </label>
+                                        <input type="number" min="1" class="form-control" id="appointment-reminder-hours"
+                                               data-field="appointment_reminder_hours">
+
+                                        <div class="form-text text-muted">
+                                            <small>
+                                                <?= lang('appointment_reminder_hours_hint') ?>
+                                            </small>
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <div class="form-check form-switch">
                                             <input class="form-check-input" type="checkbox" id="limit-customer-access"
                                                    data-field="limit_customer_access">
                                             <label class="form-check-label" for="limit-customer-access">

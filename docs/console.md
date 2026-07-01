@@ -86,6 +86,20 @@ This command removes expired sessions, old logs and cache files, and deletes old
 
 **Tip:** Add this command to a [cron job](https://en.wikipedia.org/wiki/Cron) so cleanup runs automatically.
 
+### Reminders
+
+Sends reminder emails for upcoming appointments:
+
+```
+php index.php console reminders
+```
+
+Customers (and providers, when provider notifications are enabled) receive a reminder email for each appointment that starts within the configured time window and has not been reminded yet. Each appointment is reminded only once.
+
+Enable this feature and set the time window (in hours before the appointment) from **Settings → Booking Settings → Appointment Reminders**.
+
+**Tip:** Add this command to a [cron job](https://en.wikipedia.org/wiki/Cron) (e.g. run it every 15–60 minutes) so reminders are delivered automatically.
+
 ### Help
 
 Shows a summary of all available commands:
