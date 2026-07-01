@@ -60,7 +60,7 @@ To test CalDAV syncing locally:
 
 OpenLDAP runs on the `openldap` container (ports `389` and `636`). You can manage it through phpLDAPadmin at http://localhost:8200.
 
-> **Note:** This Docker setup is for **development only**. Don't use it in production. For a production Docker image, see: [YOUR_NEW_REPO_URL]-docker
+> **Note:** This Docker setup is for **development only**. Don't use it in production. For a production Docker image, see: https://github.com/mariners-appointment/mariners-appointment-docker
 
 *This document applies to Mariners Appointment v1.6.0.*
 

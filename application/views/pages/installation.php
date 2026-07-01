@@ -7,6 +7,8 @@
     <title>Installation | Mariners Appointment</title>
 
     <link rel="icon" type="image/x-icon" href="<?= asset_url('assets/img/favicon.ico') ?>">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?= asset_url('assets/img/favicon-32x32.png') ?>">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?= asset_url('assets/img/apple-touch-icon.png') ?>">
     <link rel="stylesheet" type="text/css" href="<?= asset_url('assets/css/themes/default.css') ?>">
     <link rel="stylesheet" type="text/css" href="<?= asset_url('assets/css/general.css') ?>">
 </head>
@@ -47,7 +49,7 @@
                     <a href="https://mariners-appointment.org/docs.html">Documentation</a> and
                     <a href="https://groups.google.com/group/easy-appointments">Support Group</a> for getting help. 
                     You may also submit new issues on
-                    <a href="[YOUR_NEW_REPO_URL]/issues">GitHub Issues</a>
+                    <a href="https://github.com/mariners-appointment/mariners-appointment/issues">GitHub Issues</a>
                     in order to help our development process.
                 </p>
             </div>

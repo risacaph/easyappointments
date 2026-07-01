@@ -12,7 +12,7 @@ Have an idea for a new feature or improvement? We'd love to hear it. Submit your
 
 ### Help Translate
 
-The app is already available in many languages, but new features need new translations. You can submit your translations via a [pull request on GitHub]([YOUR_NEW_REPO_URL]) or email them to [[YOUR_CONTACT_EMAIL]](mailto:[YOUR_CONTACT_EMAIL]).
+The app is already available in many languages, but new features need new translations. You can submit your translations via a [pull request on GitHub](https://github.com/mariners-appointment/mariners-appointment) or email them to [contact@mariners-appointment.org](mailto:contact@mariners-appointment.org).
 
 ### Share Your Feedback
 

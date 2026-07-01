@@ -4,7 +4,7 @@
  * Mariners Appointment - Online Appointment Scheduler
  *
  * @package     Mariners Appointment
- * @author      A.Tselegidis <[YOUR_CONTACT_EMAIL]>
+ * @author      A.Tselegidis <contact@mariners-appointment.org>
  * @copyright   Copyright (c) Alex Tselegidis
  * @license     https://opensource.org/licenses/GPL-3.0 - GPLv3
  * @link        https://mariners-appointment.org
@@ -38,6 +38,7 @@ class Console extends EA_Controller
 
         $this->load->library('instance');
         $this->load->library('cleanup');
+        $this->load->library('reminders');
 
         $this->load->model('admins_model');
         $this->load->model('customers_model');
@@ -173,6 +174,28 @@ class Console extends EA_Controller
     }
 
     /**
+     * Send reminder emails for upcoming appointments.
+     *
+     * Use this method in a cronjob to automatically remind customers and providers about their
+     * upcoming appointments.
+     *
+     * Notice:
+     *
+     * Reminders must first be enabled from the booking settings page, where the reminder time window
+     * (in hours before the appointment) is also configured.
+     *
+     * Usage:
+     *
+     * php index.php console reminders
+     *
+     * @throws Exception
+     */
+    public function reminders(): void
+    {
+        $this->reminders->run();
+    }
+
+    /**
      * Show help information about the console capabilities.
      *
      * Use this method to see the available commands.
@@ -202,6 +225,7 @@ class Console extends EA_Controller
             '⇾ php index.php console backup',
             '⇾ php index.php console sync',
             '⇾ php index.php console cleanup    (cleans sessions, logs, cache, and customer data)',
+            '⇾ php index.php console reminders  (sends reminder emails for upcoming appointments)',
             '',
             '',
         ];

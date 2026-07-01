@@ -4,7 +4,7 @@
  * Mariners Appointment - Online Appointment Scheduler
  *
  * @package     Mariners Appointment
- * @author      A.Tselegidis <[YOUR_CONTACT_EMAIL]>
+ * @author      A.Tselegidis <contact@mariners-appointment.org>
  * @copyright   Copyright (c) Alex Tselegidis
  * @license     https://opensource.org/licenses/GPL-3.0 - GPLv3
  * @link        https://mariners-appointment.org
@@ -199,6 +199,96 @@ class Notifications
             }
         } catch (Throwable $e) {
             $this->log_exception($e, 'appointment-saved (general exception)', $appointment['id'] ?? null);
+        } finally {
+            config(['language' => $current_language ?? 'english']);
+            $this->CI->lang->load('translations');
+        }
+    }
+
+    /**
+     * Send an appointment reminder notification to the customer and the provider.
+     *
+     * Used by the "console reminders" command to remind participants of an upcoming appointment.
+     *
+     * @param array $appointment Appointment data.
+     * @param array $service Service data.
+     * @param array $provider Provider data.
+     * @param array $customer Customer data.
+     * @param array $settings Required settings.
+     */
+    public function notify_appointment_reminder(
+        array $appointment,
+        array $service,
+        array $provider,
+        array $customer,
+        array $settings,
+    ): void {
+        $current_language = config('language');
+
+        try {
+            $customer_link = site_url('booking/reschedule/' . $appointment['hash']);
+
+            $provider_link = site_url('calendar/reschedule/' . $appointment['hash']);
+
+            $ics_stream = $this->CI->ics_file->get_stream($appointment, $service, $provider, $customer);
+
+            // Remind the customer.
+            $send_customer =
+                !empty($customer['email']) && filter_var(setting('customer_notifications'), FILTER_VALIDATE_BOOLEAN);
+
+            if ($send_customer === true) {
+                config(['language' => $customer['language']]);
+                $this->CI->lang->load('translations');
+
+                try {
+                    $this->CI->email_messages->send_appointment_reminder(
+                        $appointment,
+                        $provider,
+                        $service,
+                        $customer,
+                        $settings,
+                        lang('appointment_reminder_title'),
+                        lang('appointment_reminder_message'),
+                        $customer_link,
+                        $customer['email'],
+                        $ics_stream,
+                        $customer['timezone'],
+                    );
+                } catch (Throwable $e) {
+                    $this->log_exception($e, 'appointment-reminder to customer', $appointment['id'] ?? null);
+                }
+            }
+
+            // Remind the provider.
+            $send_provider = filter_var(
+                $this->CI->providers_model->get_setting($provider['id'], 'notifications'),
+                FILTER_VALIDATE_BOOLEAN,
+            );
+
+            if ($send_provider === true) {
+                config(['language' => $provider['language']]);
+                $this->CI->lang->load('translations');
+
+                try {
+                    $this->CI->email_messages->send_appointment_reminder(
+                        $appointment,
+                        $provider,
+                        $service,
+                        $customer,
+                        $settings,
+                        lang('appointment_reminder_title'),
+                        lang('appointment_reminder_message'),
+                        $provider_link,
+                        $provider['email'],
+                        $ics_stream,
+                        $provider['timezone'],
+                    );
+                } catch (Throwable $e) {
+                    $this->log_exception($e, 'appointment-reminder to provider', $appointment['id'] ?? null);
+                }
+            }
+        } catch (Throwable $e) {
+            $this->log_exception($e, 'appointment-reminder (general exception)', $appointment['id'] ?? null);
         } finally {
             config(['language' => $current_language ?? 'english']);
             $this->CI->lang->load('translations');

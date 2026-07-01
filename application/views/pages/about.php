@@ -107,7 +107,7 @@
 
             <div class="col-lg-6 mb-3">
                 <a class="btn btn-outline-secondary d-block"
-                   href="[YOUR_NEW_REPO_URL]/issues" target="_blank">
+                   href="https://github.com/mariners-appointment/mariners-appointment/issues" target="_blank">
                     <i class="fas fa-external-link-alt me-2"></i>
                     <?= lang('project_issues') ?>
                 </a>

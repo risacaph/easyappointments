@@ -40,7 +40,7 @@ $config['language'] = 'english'; // Change to your language
 
 ## Sharing Your Translation
 
-If you'd like to contribute your translation to the project, you can submit a [pull request on GitHub]([YOUR_NEW_REPO_URL]) or email it to [[YOUR_CONTACT_EMAIL]](mailto:[YOUR_CONTACT_EMAIL]).
+If you'd like to contribute your translation to the project, you can submit a [pull request on GitHub](https://github.com/mariners-appointment/mariners-appointment) or email it to [contact@mariners-appointment.org](mailto:contact@mariners-appointment.org).
 
 *This document applies to Mariners Appointment v1.6.0.*
 

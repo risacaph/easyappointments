@@ -1,8 +1,8 @@
 {
   "name": "mariners-appointment",
   "description": "Mariners Appointment - Open Source Web Appointment Scheduler",
-  "homepage": "[YOUR_NEW_REPO_URL]",
-  "author": "Mariners Appointment <[YOUR_CONTACT_EMAIL]>",
+  "homepage": "https://github.com/mariners-appointment/mariners-appointment",
+  "author": "Mariners Appointment <contact@mariners-appointment.org>",
   "license": "GPL-3.0",
   "keywords": [
     "calendar",
@@ -15,10 +15,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+[YOUR_NEW_REPO_URL].git"
+    "url": "git+https://github.com/mariners-appointment/mariners-appointment.git"
   },
   "bugs": {
-    "url": "[YOUR_NEW_REPO_URL]/issues"
+    "url": "https://github.com/mariners-appointment/mariners-appointment/issues"
   },
   "engines": {
     "node": ">=14"

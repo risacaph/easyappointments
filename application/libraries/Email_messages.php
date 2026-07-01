@@ -4,7 +4,7 @@
  * Mariners Appointment - Online Appointment Scheduler
  *
  * @package     Mariners Appointment
- * @author      A.Tselegidis <[YOUR_CONTACT_EMAIL]>
+ * @author      A.Tselegidis <contact@mariners-appointment.org>
  * @copyright   Copyright (c) Alex Tselegidis
  * @license     https://opensource.org/licenses/GPL-3.0 - GPLv3
  * @link        https://mariners-appointment.org
@@ -117,6 +117,55 @@ class Email_messages
         $php_mailer->addStringAttachment($ics_stream, 'invitation.ics', PHPMailer::ENCODING_BASE64, 'text/calendar');
 
         $php_mailer->send();
+    }
+
+    /**
+     * Send an appointment reminder email.
+     *
+     * Reuses the appointment details email template with a reminder specific subject and message.
+     *
+     * @param array $appointment Appointment data.
+     * @param array $provider Provider data.
+     * @param array $service Service data.
+     * @param array $customer Customer data.
+     * @param array $settings App settings.
+     * @param string $subject Email subject.
+     * @param string $message Email message.
+     * @param string $appointment_link Appointment unique URL.
+     * @param string $recipient_email Recipient email address.
+     * @param string $ics_stream ICS file contents.
+     * @param string|null $timezone Custom timezone.
+     *
+     * @throws DateInvalidTimeZoneException
+     * @throws DateMalformedStringException
+     * @throws Exception
+     */
+    public function send_appointment_reminder(
+        array $appointment,
+        array $provider,
+        array $service,
+        array $customer,
+        array $settings,
+        string $subject,
+        string $message,
+        string $appointment_link,
+        string $recipient_email,
+        string $ics_stream,
+        ?string $timezone = null,
+    ): void {
+        $this->send_appointment_saved(
+            $appointment,
+            $provider,
+            $service,
+            $customer,
+            $settings,
+            $subject,
+            $message,
+            $appointment_link,
+            $recipient_email,
+            $ics_stream,
+            $timezone,
+        );
     }
 
     /**
