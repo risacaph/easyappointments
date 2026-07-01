@@ -9,7 +9,7 @@
     <div class="mb-3 me-lg-5 mb-lg-0">
         <img class="me-1" src="<?= base_url('assets/img/logo-16x16.png') ?>" alt="Mariners Appointment Logo">
 
-        <a href="[YOUR_NEW_REPO_URL]" target="_blank">Mariners Appointment</a>
+        <a href="https://github.com/mariners-appointment/mariners-appointment" target="_blank">Mariners Appointment</a>
 
         <span>v<?= config('version') ?></span>
     </div>

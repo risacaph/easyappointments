@@ -2,20 +2,20 @@
     "name": "mariners-appointment/mariners-appointment",
     "description": "Mariners Appointment - Open Source Web Appointment Scheduler",
     "version": "1.5.2",
-    "homepage": "[YOUR_NEW_REPO_URL]",
+    "homepage": "https://github.com/mariners-appointment/mariners-appointment",
     "type": "project",
     "license": "GPL-3.0",
     "authors": [
         {
             "name": "Mariners Appointment",
-            "email": "[YOUR_CONTACT_EMAIL]"
+            "email": "contact@mariners-appointment.org"
         }
     ],
     "support": {
-        "issues": "[YOUR_NEW_REPO_URL]/issues",
-        "forum": "[YOUR_NEW_REPO_URL]/discussions",
-        "wiki": "[YOUR_NEW_REPO_URL]/wiki",
-        "source": "[YOUR_NEW_REPO_URL]"
+        "issues": "https://github.com/mariners-appointment/mariners-appointment/issues",
+        "forum": "https://github.com/mariners-appointment/mariners-appointment/discussions",
+        "wiki": "https://github.com/mariners-appointment/mariners-appointment/wiki",
+        "source": "https://github.com/mariners-appointment/mariners-appointment"
     },
     "keywords": [
         "calendar",

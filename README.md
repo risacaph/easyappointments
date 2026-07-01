@@ -1,6 +1,6 @@
 <h1 align="center">
     <br>
-    <a href="[YOUR_NEW_REPO_URL]">
+    <a href="https://github.com/mariners-appointment/mariners-appointment">
         <img src="logo.png" alt="Mariners Appointment" width="150">
     </a>
     <br>
@@ -13,9 +13,9 @@
 </h4>
 
 <p align="center">
-  <img alt="License" src="https://img.shields.io/github/license/[YOUR_NEW_REPO_OWNER]/mariners-appointment?style=for-the-badge">
-  <img alt="Latest Release" src="https://img.shields.io/github/v/release/[YOUR_NEW_REPO_OWNER]/mariners-appointment?style=for-the-badge">
-  <img alt="Downloads" src="https://img.shields.io/github/downloads/[YOUR_NEW_REPO_OWNER]/mariners-appointment/total?style=for-the-badge">
+  <img alt="License" src="https://img.shields.io/github/license/mariners-appointment/mariners-appointment?style=for-the-badge">
+  <img alt="Latest Release" src="https://img.shields.io/github/v/release/mariners-appointment/mariners-appointment?style=for-the-badge">
+  <img alt="Downloads" src="https://img.shields.io/github/downloads/mariners-appointment/mariners-appointment/total?style=for-the-badge">
 </p>
 
 <p align="center">
@@ -66,7 +66,7 @@ Clone and run the project locally using the provided Docker Compose environment:
 
 ```bash
 # Clone the repository
-git clone [YOUR_NEW_REPO_URL].git
+git clone https://github.com/mariners-appointment/mariners-appointment.git
 
 # Navigate into the project
 cd mariners-appointment
@@ -126,9 +126,9 @@ Once completed, the system is ready to use.
 
 ## 📚 Resources
 
-* Repository: [[YOUR_NEW_REPO_URL]]([YOUR_NEW_REPO_URL])
-* Issues: [[YOUR_NEW_REPO_URL]/issues]([YOUR_NEW_REPO_URL]/issues)
-* Discussions: [[YOUR_NEW_REPO_URL]/discussions]([YOUR_NEW_REPO_URL]/discussions)
+* Repository: [https://github.com/mariners-appointment/mariners-appointment](https://github.com/mariners-appointment/mariners-appointment)
+* Issues: [https://github.com/mariners-appointment/mariners-appointment/issues](https://github.com/mariners-appointment/mariners-appointment/issues)
+* Discussions: [https://github.com/mariners-appointment/mariners-appointment/discussions](https://github.com/mariners-appointment/mariners-appointment/discussions)
 
 ---
 
@@ -145,5 +145,5 @@ original copyright notices are retained in the source files as required by the l
 
 ## 👤 Maintainer
 
-* Repository: [[YOUR_NEW_REPO_URL]]([YOUR_NEW_REPO_URL])
-* Contact: [YOUR_CONTACT_EMAIL]
+* Repository: [https://github.com/mariners-appointment/mariners-appointment](https://github.com/mariners-appointment/mariners-appointment)
+* Contact: contact@mariners-appointment.org

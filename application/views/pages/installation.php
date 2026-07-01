@@ -47,7 +47,7 @@
                     <a href="https://mariners-appointment.org/docs.html">Documentation</a> and
                     <a href="https://groups.google.com/group/easy-appointments">Support Group</a> for getting help. 
                     You may also submit new issues on
-                    <a href="[YOUR_NEW_REPO_URL]/issues">GitHub Issues</a>
+                    <a href="https://github.com/mariners-appointment/mariners-appointment/issues">GitHub Issues</a>
                     in order to help our development process.
                 </p>
             </div>
